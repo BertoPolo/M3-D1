@@ -36,9 +36,14 @@ const findLarger = function(num1,num1,num3){
 
 /* 6. Create a function to create a new string composed of a specified number of copies of a given string. 
     Pass the string and the number of copies as parameters. */
-    const createStr = function(num){
-
+    const createStr = function(str,num){
+        let completeStr=""
+        for(let i =0;i<num;i++){
+            completeStr+= str
+        }
+        return completeStr
     }
+    console.log(createStr("hola ",3))
 
 /* 7. Create a function to display the city name if the string begins with "Los" or "New". 
     Pass the city name as a parameter. Return `false` if they start with a different string. */
@@ -57,15 +62,19 @@ let arrayer=[33,22,44]
         }
         return sum
     }
-    console.log(ex8(arrayer))
+    //console.log(ex8(arrayer))
 
-/* 9. Create a function to test if an array of lenght 2 contains 1 OR 3. 
+/* 9. Create a function to test if an array of length 2 contains 1 OR 3. 
     Return `true` is it does, `false` if it doesn't. */
-
-
+    const ex9 = function(leng){
+        (leng.length()=== (2 || 3)) ? true:false 
+    }
+    
 /* 10. Create a function to test if an array of lenght 2 DOES NOT contain 1 or 3. 
     Return `true` if it doesn't, `false` if it does. */ 
+    const ex10=function(){
 
+    }
 
 /* 11. Create a function to find the longest string from a given array of strings. 
     Pass the array as parameter and return the longest string. */ 
