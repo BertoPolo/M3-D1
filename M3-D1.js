@@ -1,8 +1,17 @@
 /* 1. Create a function to calculate the sum of the two given integers. If the two values are the same, return triple their sum. */
 
+const sum = function(num1,num2){
+    if(num1===num2){
+        return (num1 + num2)*3
+    }else{
+    return num1 + num2
+}
+}
 
 /* 2. Create a function to check two given integers. Return `true` if one of them is 50 or if their sum is 50. */
-
+const check = function(){
+    (num1 === 50 || (num1+num2)=== 50) ? true : false
+}
 
 /* 3. Create a function to remove a character at a specified position from a given string: pass the position and the string as parameters, return the new string. */
 
