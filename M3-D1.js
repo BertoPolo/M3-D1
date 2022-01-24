@@ -48,9 +48,16 @@ const findLarger = function(num1,num1,num3){
 
 /* 8. Create a function to calculate and return the sum of all elements from an array with 3 elements. 
     Pass the array as a parameter. */
-    const ex8 = function(){
-        
+
+let arrayer=[33,22,44]
+    const ex8 = function(arr){
+        let sum 
+        for(let i = 0;i<arr.length;i++){                            //something wrong
+            sum += arr[i] + arr[i-1]
+        }
+        return sum
     }
+    console.log(ex8(arrayer))
 
 /* 9. Create a function to test if an array of lenght 2 contains 1 OR 3. 
     Return `true` is it does, `false` if it doesn't. */
