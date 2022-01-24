@@ -30,19 +30,27 @@ const findLarger = function(num1,num1,num3){
 
 /* 5. Create a function to check if two numbers are in the range 40-60 or 70-100. 
     Return `true` if they do, return `false` if one (or both) don't. */
-
+    const checkBetween =function(num1,num2){
+        ( (num1<=40 && num1>=60) || (num1<=60 && num1>=100) || (num2<=40 && num2>=60) || (num2<=60 && num2>=100) ) ? true:false   
+    }
 
 /* 6. Create a function to create a new string composed of a specified number of copies of a given string. 
     Pass the string and the number of copies as parameters. */
+    const createStr = function(num){
 
+    }
 
 /* 7. Create a function to display the city name if the string begins with "Los" or "New". 
     Pass the city name as a parameter. Return `false` if they start with a different string. */
-
+    const city = function(str){
+        ( str.startsWith("Los") || str.startsWith("New") ) ? true : false
+    }
 
 /* 8. Create a function to calculate and return the sum of all elements from an array with 3 elements. 
     Pass the array as a parameter. */
-
+    const ex8 = function(){
+        
+    }
 
 /* 9. Create a function to test if an array of lenght 2 contains 1 OR 3. 
     Return `true` is it does, `false` if it doesn't. */
