@@ -91,7 +91,7 @@ let arrayer=[33,22,44]
     Pass the array as parameter and return the longest string. */ 
     const ray = ["asdasda","asdasdaaaaaaa","aaa"]
     const ex11 = function(arr){
-        let longest
+        let longest 
         for(let i=0;i<arr.length;i++){
         
         if(arr[i].length < arr[i+1].length){
