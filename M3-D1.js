@@ -89,9 +89,20 @@ let arrayer=[33,22,44]
 
 /* 11. Create a function to find the longest string from a given array of strings. 
     Pass the array as parameter and return the longest string. */ 
-    const ex11=function(){
-
+    const ray = ["asdasda","asdasdaaaaaaa","aaa"]
+    const ex11 = function(arr){
+        let longest
+        for(let i=0;i<arr.length;i++){
+        
+        if(arr[i].length < arr[i+1].length){
+            longest = arr[i]
+        }else{
+            longest = arr[i+1]
+        }
     }
+        return longest
+    }
+    console.log(ex11(ray))
 
 /* 12. Create a function to find the types of a given angle:
   1. Acute angle ⇒ between 0 and 90 degrees. Return `acute`.
