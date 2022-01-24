@@ -10,7 +10,7 @@ const sum = function(num1,num2){
 
 /* 2. Create a function to check two given integers. Return `true` if one of them is 50 or if their sum is 50. */
 const check = function(num1,num2){
-    (num1 === 50 || (num1+num2)=== 50) ? true : false
+ return (num1 === 50 || (num1+num2)=== 50) ? true : false
 }
 
 /* 3. Create a function to remove a character at a specified position from a given string: pass the position and the string as parameters, return the new string. */
