@@ -95,7 +95,7 @@ let arrayer=[33,22,44]
         for(let i=0;i<arr.length;i++){
         
         if(arr[i].length < arr[i+1].length){
-            longest = arr[i]
+            longest = arr[i]                                //do not compare with the next, create a variable and compare with it
         }else{
             longest = arr[i+1]
         }
